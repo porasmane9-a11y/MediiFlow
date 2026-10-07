@@ -1,0 +1,1 @@
+the website is good but whenever i add the patient details in doctor ection the details which i have added should be stored in database the default data which is already there should be removed whenever i add new data the data should be stored 

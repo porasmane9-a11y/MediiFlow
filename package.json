@@ -1,0 +1,13 @@
+{
+  "name": "mediflow",
+  "version": "2.0.0",
+  "description": "Smart Hospital Medicine Queue & Preparation System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["mediflow", "hospital", "pharmacy", "queue"],
+  "author": "",
+  "license": "ISC"
+}
