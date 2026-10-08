@@ -1,6 +1,127 @@
 {
   "version": 3,
-  "updatedAt": "2026-10-07T06:07:19.101Z",
-  "prescriptions": [],
+  "updatedAt": "2026-10-08T13:37:09.661Z",
+  "prescriptions": [
+    {
+      "prescriptionId": "MF-2026-1003",
+      "patientName": "viraj",
+      "patientId": "abcd",
+      "ageGender": "50 M",
+      "relativeName": "sham",
+      "mobile": "9185476952",
+      "department": "Neurology",
+      "priority": "REGULAR",
+      "scheme": true,
+      "doctor": "Dr. Kavita Rao",
+      "medicines": [
+        {
+          "name": "Levetiracetam",
+          "qty": 1,
+          "price": 147
+        },
+        {
+          "name": "Gabapentin",
+          "qty": 1,
+          "price": 77
+        },
+        {
+          "name": "Vitamin B Complex",
+          "qty": 1,
+          "price": 180
+        }
+      ],
+      "status": "COLLECTED",
+      "createdAt": 1791380598052,
+      "availability": [
+        {
+          "name": "Levetiracetam",
+          "qty": 1,
+          "stock": 12,
+          "available": true
+        },
+        {
+          "name": "Gabapentin",
+          "qty": 1,
+          "stock": 10,
+          "available": true
+        },
+        {
+          "name": "Vitamin B Complex",
+          "qty": 1,
+          "stock": 10,
+          "available": true
+        }
+      ],
+      "total": 404,
+      "patientPayable": 0,
+      "claimAmount": 404,
+      "counter": "Counter 1",
+      "stockDeducted": true,
+      "isDemo": false,
+      "preparationStartedAt": 1791380766494,
+      "readyAt": 1791380903701,
+      "collectedAt": 1791380908780
+    },
+    {
+      "prescriptionId": "MF-2026-1004",
+      "patientName": "omkar",
+      "patientId": "mbsd",
+      "ageGender": "45 M",
+      "relativeName": "rajendra",
+      "mobile": "9370168207",
+      "department": "Pediatrics",
+      "priority": "HIGH",
+      "scheme": true,
+      "doctor": "Dr. Kavita Rao",
+      "medicines": [
+        {
+          "name": "Pediatric Paracetamol",
+          "qty": 1,
+          "price": 236
+        },
+        {
+          "name": "Pediatric Antibiotic",
+          "qty": 1,
+          "price": 258
+        },
+        {
+          "name": "Pediatric Syrup",
+          "qty": 1,
+          "price": 130
+        }
+      ],
+      "status": "COLLECTED",
+      "createdAt": 1791466389290,
+      "availability": [
+        {
+          "name": "Pediatric Paracetamol",
+          "qty": 1,
+          "stock": 8,
+          "available": true
+        },
+        {
+          "name": "Pediatric Antibiotic",
+          "qty": 1,
+          "stock": 26,
+          "available": true
+        },
+        {
+          "name": "Pediatric Syrup",
+          "qty": 1,
+          "stock": 18,
+          "available": true
+        }
+      ],
+      "total": 624,
+      "patientPayable": 0,
+      "claimAmount": 624,
+      "counter": "Emergency Counter",
+      "stockDeducted": true,
+      "isDemo": false,
+      "preparationStartedAt": 1791466461042,
+      "readyAt": 1791466463274,
+      "collectedAt": 1791466629655
+    }
+  ],
   "notifications": []
 }
