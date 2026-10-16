@@ -6,3 +6,10 @@ yarn-error.log*
 .env.local
 .DS_Store
 Thumbs.db
+
+# Runtime data files (contain live prescription and payment data)
+database.json
+payments.json
+email_logs.json
+mediflow_db.sqlite
+api/notifications_sms_log.txt

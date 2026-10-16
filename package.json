@@ -7,7 +7,16 @@
     "start": "node server.js",
     "dev": "node server.js"
   },
-  "keywords": ["mediflow", "hospital", "pharmacy", "queue"],
+  "keywords": [
+    "mediflow",
+    "hospital",
+    "pharmacy",
+    "queue"
+  ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.7",
+    "nodemailer": "^10.1.0"
+  }
 }

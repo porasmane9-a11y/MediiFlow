@@ -1,127 +1,283 @@
 {
   "version": 3,
-  "updatedAt": "2026-10-08T13:37:09.661Z",
+  "updatedAt": "2026-10-16T18:15:41.944Z",
   "prescriptions": [
     {
-      "prescriptionId": "MF-2026-1003",
-      "patientName": "viraj",
-      "patientId": "abcd",
+      "prescriptionId": "MF-2026-202620261007",
+      "patientName": "sagar",
+      "patientId": "mf-123",
       "ageGender": "50 M",
-      "relativeName": "sham",
-      "mobile": "9185476952",
-      "department": "Neurology",
-      "priority": "REGULAR",
-      "scheme": true,
-      "doctor": "Dr. Kavita Rao",
-      "medicines": [
-        {
-          "name": "Levetiracetam",
-          "qty": 1,
-          "price": 147
-        },
-        {
-          "name": "Gabapentin",
-          "qty": 1,
-          "price": 77
-        },
-        {
-          "name": "Vitamin B Complex",
-          "qty": 1,
-          "price": 180
-        }
-      ],
-      "status": "COLLECTED",
-      "createdAt": 1791380598052,
-      "availability": [
-        {
-          "name": "Levetiracetam",
-          "qty": 1,
-          "stock": 12,
-          "available": true
-        },
-        {
-          "name": "Gabapentin",
-          "qty": 1,
-          "stock": 10,
-          "available": true
-        },
-        {
-          "name": "Vitamin B Complex",
-          "qty": 1,
-          "stock": 10,
-          "available": true
-        }
-      ],
-      "total": 404,
-      "patientPayable": 0,
-      "claimAmount": 404,
-      "counter": "Counter 1",
-      "stockDeducted": true,
-      "isDemo": false,
-      "preparationStartedAt": 1791380766494,
-      "readyAt": 1791380903701,
-      "collectedAt": 1791380908780
-    },
-    {
-      "prescriptionId": "MF-2026-1004",
-      "patientName": "omkar",
-      "patientId": "mbsd",
-      "ageGender": "45 M",
-      "relativeName": "rajendra",
+      "relativeName": "shantaram",
       "mobile": "9370168207",
-      "department": "Pediatrics",
-      "priority": "HIGH",
-      "scheme": true,
+      "patientEmail": "porasmane9@gmail.com",
+      "relativeEmail": "porasmane9@gmail.com",
+      "department": "Orthopedics",
+      "priority": "REGULAR",
+      "scheme": false,
       "doctor": "Dr. Kavita Rao",
+      "doctorId": "DOC-101",
       "medicines": [
         {
-          "name": "Pediatric Paracetamol",
-          "qty": 1,
-          "price": 236
-        },
-        {
-          "name": "Pediatric Antibiotic",
-          "qty": 1,
-          "price": 258
-        },
-        {
-          "name": "Pediatric Syrup",
+          "name": "Vitamin D",
           "qty": 1,
           "price": 130
-        }
-      ],
-      "status": "COLLECTED",
-      "createdAt": 1791466389290,
-      "availability": [
-        {
-          "name": "Pediatric Paracetamol",
-          "qty": 1,
-          "stock": 8,
-          "available": true
         },
         {
-          "name": "Pediatric Antibiotic",
+          "name": "Calcium Supplement",
           "qty": 1,
-          "stock": 26,
-          "available": true
+          "price": 250
         },
         {
-          "name": "Pediatric Syrup",
+          "name": "Pain Relief Medicine",
           "qty": 1,
-          "stock": 18,
-          "available": true
+          "price": 232
         }
       ],
-      "total": 624,
-      "patientPayable": 0,
-      "claimAmount": 624,
-      "counter": "Emergency Counter",
+      "instructions": "",
+      "status": "Ready for Collection",
+      "createdAt": 1791916733550,
+      "updatedAt": 1791916780366,
+      "availability": null,
+      "total": null,
+      "patientPayable": null,
+      "claimAmount": null,
+      "counter": "Pharmacy Counter 1",
       "stockDeducted": true,
       "isDemo": false,
-      "preparationStartedAt": 1791466461042,
-      "readyAt": 1791466463274,
-      "collectedAt": 1791466629655
+      "emailHistory": {
+        "newPrescriptionSentAt": "2026-10-13T18:38:57.762Z",
+        "readyForCollectionSentAt": "2026-10-16T18:15:41.944Z"
+      },
+      "acceptedAt": 1791916769637,
+      "preparationStartedAt": 1791916774022,
+      "readyAt": 1791916780359
     }
   ],
-  "notifications": []
+  "notifications": [
+    {
+      "id": "N-1792174472723-4taz",
+      "recipientRole": "relative",
+      "recipientPatientId": "PAT-NOEMAIL",
+      "prescriptionId": "TEST-NOEMAIL-8626",
+      "title": "🔔 Medicine Packed & Ready for Pickup",
+      "message": "The prescribed medicines for No Email Patient (Prescription ID: TEST-NOEMAIL-8626) are packed. Please collect from Pharmacy Counter 1.",
+      "read": false,
+      "createdAt": 1792174472723
+    },
+    {
+      "id": "N-1792174468627-sr52",
+      "recipientRole": "staff",
+      "prescriptionId": "TEST-NOEMAIL-8626",
+      "title": "🔔 New Prescription Received",
+      "message": "Patient: No Email Patient (ID: PAT-NOEMAIL) | Doctor: Dr. Kavita Rao | Priority: REGULAR",
+      "read": false,
+      "createdAt": 1792174468627
+    },
+    {
+      "id": "N-1792174461719-cash",
+      "recipientRole": "staff",
+      "prescriptionId": "TEST-MF-3520",
+      "title": "💵 Cash Payment Confirmed",
+      "message": "Cash payment of ₹400 confirmed for Arjun Verma (TEST-MF-3520) by Pharmacist Anita",
+      "read": false,
+      "createdAt": 1792174461719
+    },
+    {
+      "id": "N-1792174457792-nm6q",
+      "recipientRole": "relative",
+      "recipientPatientId": "PAT-TEST-520",
+      "prescriptionId": "TEST-MF-3520",
+      "title": "🔔 Medicine Packed & Ready for Pickup",
+      "message": "The prescribed medicines for Arjun Verma (Prescription ID: TEST-MF-3520) are packed. Please collect from Emergency Counter.",
+      "read": false,
+      "createdAt": 1792174457792
+    },
+    {
+      "id": "N-1792174453530-cc95",
+      "recipientRole": "staff",
+      "prescriptionId": "TEST-MF-3520",
+      "title": "🔔 New Prescription Received",
+      "message": "Patient: Arjun Verma (ID: PAT-TEST-520) | Doctor: Dr. Kavita Rao | Priority: HIGH",
+      "read": false,
+      "createdAt": 1792174453530
+    },
+    {
+      "id": "N-1792173303960-4wj2",
+      "recipientRole": "relative",
+      "recipientPatientId": "PAT-NOEMAIL",
+      "prescriptionId": "TEST-NOEMAIL-9562",
+      "title": "🔔 Medicine Packed & Ready for Pickup",
+      "message": "The prescribed medicines for No Email Patient (Prescription ID: TEST-NOEMAIL-9562) are packed. Please collect from Pharmacy Counter 1.",
+      "read": false,
+      "createdAt": 1792173303960
+    },
+    {
+      "id": "N-1792173299563-o74z",
+      "recipientRole": "staff",
+      "prescriptionId": "TEST-NOEMAIL-9562",
+      "title": "🔔 New Prescription Received",
+      "message": "Patient: No Email Patient (ID: PAT-NOEMAIL) | Doctor: Dr. Kavita Rao | Priority: REGULAR",
+      "read": false,
+      "createdAt": 1792173299563
+    },
+    {
+      "id": "N-1792173291948-cash",
+      "recipientRole": "staff",
+      "prescriptionId": "TEST-MF-3599",
+      "title": "💵 Cash Payment Confirmed",
+      "message": "Cash payment of ₹400 confirmed for Arjun Verma (TEST-MF-3599) by Pharmacist Anita",
+      "read": false,
+      "createdAt": 1792173291948
+    },
+    {
+      "id": "N-1792173288284-gs8t",
+      "recipientRole": "relative",
+      "recipientPatientId": "PAT-TEST-599",
+      "prescriptionId": "TEST-MF-3599",
+      "title": "🔔 Medicine Packed & Ready for Pickup",
+      "message": "The prescribed medicines for Arjun Verma (Prescription ID: TEST-MF-3599) are packed. Please collect from Emergency Counter.",
+      "read": false,
+      "createdAt": 1792173288284
+    },
+    {
+      "id": "N-1792173283608-o1wa",
+      "recipientRole": "staff",
+      "prescriptionId": "TEST-MF-3599",
+      "title": "🔔 New Prescription Received",
+      "message": "Patient: Arjun Verma (ID: PAT-TEST-599) | Doctor: Dr. Kavita Rao | Priority: HIGH",
+      "read": false,
+      "createdAt": 1792173283608
+    },
+    {
+      "id": "N-1792099911520-cash",
+      "recipientRole": "staff",
+      "prescriptionId": "TEST-MF-5351",
+      "title": "💵 Cash Payment Confirmed",
+      "message": "Cash payment of ₹400 confirmed for Aarav Sharma (TEST-MF-5351) by Test Staff",
+      "read": false,
+      "createdAt": 1792099911520
+    },
+    {
+      "id": "N-1792099908367-am8q",
+      "recipientRole": "relative",
+      "recipientPatientId": "PAT-9901",
+      "prescriptionId": "TEST-MF-5351",
+      "title": "🔔 Medicine Ready for Collection",
+      "message": "The prescribed medicines for Aarav Sharma (Prescription ID: TEST-MF-5351) are packed. Please collect from Emergency Counter.",
+      "read": false,
+      "createdAt": 1792099908367
+    },
+    {
+      "id": "N-1792099905353-3nlb",
+      "recipientRole": "staff",
+      "prescriptionId": "TEST-MF-5351",
+      "title": "🔔 New Prescription Received",
+      "message": "Patient: Aarav Sharma (ID: PAT-9901) | Doctor: Dr. Kavita Rao | Priority: HIGH",
+      "read": false,
+      "createdAt": 1792099905353
+    },
+    {
+      "id": "N-1791916780366-tsrh",
+      "recipientRole": "relative",
+      "recipientPatientId": "mf-123",
+      "prescriptionId": "MF-2026-202620261007",
+      "title": "🔔 Medicine Ready for Collection",
+      "message": "The prescribed medicines for sagar (Prescription ID: MF-2026-202620261007) are packed. Please collect from Pharmacy Counter 1.",
+      "read": false,
+      "createdAt": 1791916780366
+    },
+    {
+      "id": "N-1791916733550-g7id",
+      "recipientRole": "staff",
+      "prescriptionId": "MF-2026-202620261007",
+      "title": "🔔 New Prescription Received",
+      "message": "Patient: sagar (ID: mf-123) | Doctor: Dr. Kavita Rao | Priority: REGULAR",
+      "read": false,
+      "createdAt": 1791916733550
+    },
+    {
+      "id": "N-1791916388847-nuut",
+      "recipientRole": "relative",
+      "recipientPatientId": "abcd",
+      "prescriptionId": "MF-2026-202620261006",
+      "title": "🔔 Medicine Ready for Collection",
+      "message": "The prescribed medicines for ramesh (Prescription ID: MF-2026-202620261006) are packed. Please collect from Pharmacy Counter 3.",
+      "read": true,
+      "createdAt": 1791916388847
+    },
+    {
+      "id": "N-1791916324283-wpxa",
+      "recipientRole": "staff",
+      "prescriptionId": "MF-2026-202620261006",
+      "title": "🔔 New Prescription Received",
+      "message": "Patient: ramesh (ID: abcd) | Doctor: Dr. Kavita Rao | Priority: REGULAR",
+      "read": true,
+      "createdAt": 1791916324283
+    },
+    {
+      "id": "N-1791914142751-wls6",
+      "recipientRole": "staff",
+      "prescriptionId": "MF-2026-202620261005",
+      "title": "🔔 New Prescription Received",
+      "message": "Patient: ramesh (ID: mbsd) | Doctor: Dr. Kavita Rao | Priority: REGULAR",
+      "read": true,
+      "createdAt": 1791914142751
+    },
+    {
+      "id": "N-1791913899335-lilf",
+      "recipientRole": "relative",
+      "recipientPatientId": "mbsd",
+      "prescriptionId": "MF-2026-20261004",
+      "title": "🔔 Medicine Ready for Collection",
+      "message": "The prescribed medicines for ramesh kumar (Prescription ID: MF-2026-20261004) are packed. Please collect from Pharmacy Counter 3.",
+      "read": true,
+      "createdAt": 1791913899335
+    },
+    {
+      "id": "N-1791913854231-kkgz",
+      "recipientRole": "staff",
+      "prescriptionId": "MF-2026-20261004",
+      "title": "🔔 New Prescription Received",
+      "message": "Patient: ramesh kumar (ID: mbsd) | Doctor: Dr. Kavita Rao | Priority: REGULAR",
+      "read": true,
+      "createdAt": 1791913854231
+    },
+    {
+      "id": "N-1791913673221-cqkv",
+      "recipientRole": "relative",
+      "recipientPatientId": "abcd",
+      "prescriptionId": "MF-2026-20261003",
+      "title": "🔔 Medicine Ready for Collection",
+      "message": "The prescribed medicines for swarup gore (Prescription ID: MF-2026-20261003) are packed. Please collect from Emergency Counter.",
+      "read": true,
+      "createdAt": 1791913673221
+    },
+    {
+      "id": "N-1791913609507-nh7v",
+      "recipientRole": "staff",
+      "prescriptionId": "MF-2026-20261003",
+      "title": "🔔 New Prescription Received",
+      "message": "Patient: swarup gore (ID: abcd) | Doctor: Dr. Kavita Rao | Priority: HIGH",
+      "read": true,
+      "createdAt": 1791913609507
+    },
+    {
+      "id": "N-1791902252613-h40k",
+      "recipientRole": "staff",
+      "prescriptionId": "MF-2026-1002",
+      "title": "🔔 New Prescription Received",
+      "message": "Patient: swarup gore | Doctor: Dr. Kavita Rao | Prescription ID: MF-2026-1002",
+      "read": true,
+      "createdAt": 1791902252613
+    },
+    {
+      "id": "N-1791902156299-mr2b",
+      "recipientRole": "staff",
+      "prescriptionId": "MF-2026-1001",
+      "title": "🔔 New Prescription Received",
+      "message": "Patient: swarup gore | Doctor: Dr. Kavita Rao | Prescription ID: MF-2026-1001",
+      "read": true,
+      "createdAt": 1791902156299
+    }
+  ]
 }
